@@ -1,0 +1,39 @@
+{
+  "name": "global-editorconfig",
+  "version": "0.0.1",
+  "description": "Company-wide .editorconfig for all projects. $ npm i -g global-editorconfig ; global-editorconfig",
+  "bin": {
+    "global-editorconfig": "./copy-editorconfig-to-cwd.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basicinvite/global-editorconfig.git"
+  },
+  "dependencies": {
+    "cp-file": "^9.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0"
+  },
+  "keywords": [
+    "generic",
+    "setup",
+    "init",
+    "initialize",
+    "default",
+    "editorconfig",
+    ".editorconfig",
+    "js",
+    "project"
+  ],
+  "author": "Priyank Parashar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basicinvite/global-editorconfig/issues"
+  },
+  "homepage": "https://github.com/basicinvite/global-editorconfig#readme"
+}
