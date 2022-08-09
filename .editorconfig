@@ -1,4 +1,12 @@
-# EditorConfig is awesome: https://EditorConfig.org
+# ==================== AUTO-GENERATED ====================
+#
+# DO NOT CHANGE - This is an auto-generated file from the 
+# @basicinvite/global-editor npm package. Any changes added
+# could and probably will be overwritten.
+#
+#
+# EditorConfig: https://EditorConfig.org
+#
 #
 # Provided by the package "basicinvite/global-editorconfig":
 #     https://github.com/basicinvite/global-editorconfig
@@ -14,7 +22,7 @@
 #   References:
 #     http://editorconfig.org/
 #     http://editorconfig.org/#download
-#     https://github.com/eslint/eslint/blob/master/.editorconfig (Sample file)
+#
 
 
 # No .editorconfig files above the root directory

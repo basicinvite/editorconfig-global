@@ -1,23 +1,21 @@
 {
-  "name": "global-editorconfig",
-  "version": "0.0.1",
-  "description": "Company-wide .editorconfig for all projects. $ npm i -g global-editorconfig ; global-editorconfig",
-  "bin": {
-    "global-editorconfig": "./copy-editorconfig-to-cwd.js"
+  "name": "@basicinvite/global-editorconfig",
+  "version": "1.0.0",
+  "description": "Company-wide .editorconfig for all projects.",
+  "main": "./src/copy-editorconfig-to-cwd.js",
+  "type": "commonjs",
+  "dependencies": {
+    "cp-file": "^9.1.0",
+    "app-root-path": "^3.0.0",
+    "chalk": "^4.1.2"
   },
   "scripts": {
-    "lint": "eslint .",
-    "test": "npm run lint"
+    "setup-overwrite": "node setup-editorconfig.js -- --overwrite",
+    "postinstall": "node ./src/setup-editorconfig.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/basicinvite/global-editorconfig.git"
-  },
-  "dependencies": {
-    "cp-file": "^9.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.9.0"
   },
   "keywords": [
     "generic",
@@ -30,7 +28,7 @@
     "js",
     "project"
   ],
-  "author": "Priyank Parashar",
+  "author": "Basic Invite | Matt Reeve",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/basicinvite/global-editorconfig/issues"
